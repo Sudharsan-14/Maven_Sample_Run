@@ -1,8 +1,6 @@
 package Sample_Code.com;
 
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -30,8 +28,7 @@ public class First_Sample_Code {
 		//Launch the URL
 		driver.get("https://id.atlassian.com/login?continue=https%3A%2F%2Fstart.atlassian.com%2F&application=start");
 		
-		driver.findElement(By.xpath("")).click();
-		
+		driver.close();
 		
 		Thread.sleep(3000);
 		
