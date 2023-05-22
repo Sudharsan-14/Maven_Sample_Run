@@ -2,7 +2,7 @@ FROM openjdk:17
 
 EXPOSE 8080
 
-ADD target/Maven_Sample_Run-pro.jar Maven_Sample_Run-pro.jar
+ADD target/maven_sample_run-pro.jar maven_sample_run-pro.jar
 
 ENTRYPOINT ["java","-jar", "/maven_sample_run-pro.jar"]
 
