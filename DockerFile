@@ -1,5 +1,7 @@
 FROM openjdk:17
 
+WORKDIR D:\Automation\Maven_Sample_Run
+
 EXPOSE 8080
 
 ADD target/maven_sample_run-pro.jar maven_sample_run-pro.jar
