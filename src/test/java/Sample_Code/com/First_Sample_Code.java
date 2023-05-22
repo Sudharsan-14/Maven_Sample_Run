@@ -28,8 +28,6 @@ public class First_Sample_Code {
 		//Launch the URL
 		driver.get("https://id.atlassian.com/login?continue=https%3A%2F%2Fstart.atlassian.com%2F&application=start");
 		
-		driver.navigate().to("");
-		
 		Thread.sleep(3000);
 		
 		driver.quit();
