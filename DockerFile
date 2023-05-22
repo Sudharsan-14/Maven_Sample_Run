@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-WORKDIR D:\Automation\Maven_Sample_Run
+WORKDIR D:\Automation\maven_sample_run
 
 EXPOSE 8080
 
