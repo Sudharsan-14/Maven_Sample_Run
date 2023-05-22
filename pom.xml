@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
   
   <build>
-  <finalName>Maven_Sample_Run-pro</finalName>
+  <finalName>maven_sample_run-pro</finalName>
   </build>
 
   <name>Sample_Code</name>
