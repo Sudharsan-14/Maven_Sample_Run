@@ -32,7 +32,7 @@ public class First_Sample_Code {
 		
 		driver.quit();
 		
-		driver.close();
+		System.err.println("Summa da");
 		
 	}
 	
