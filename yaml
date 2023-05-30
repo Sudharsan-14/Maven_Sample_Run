@@ -1,0 +1,5 @@
+ name: Build and push docker image
+ uses: docker/Publish-Docker-Github-Action@master
+ with:
+      username: ${{ secrets.sudharsanveluchamy@gmail.com }}
+      password: ${{ secrets.Sneha@1214 }}
