@@ -30,13 +30,11 @@ public class First_Sample_Code {
 		
 		Thread.sleep(3000);
 		
+		System.out.println("print nothing");
+		
 		driver.quit();
 		
 		driver.close();
-		
-		System.err.println("Summa da");
-		
-		System.out.println("Venna mavalae");
 		
 	}
 	
