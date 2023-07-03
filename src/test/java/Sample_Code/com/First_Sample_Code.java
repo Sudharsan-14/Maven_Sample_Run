@@ -36,6 +36,8 @@ public class First_Sample_Code {
 		
 		driver.close();
 		
+		System.out.println("nothing");
+		
 	}
 	
 	
